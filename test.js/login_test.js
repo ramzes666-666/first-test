@@ -8,10 +8,8 @@ Scenario('test something', ({ I }) => {
     I.fillField('Phone number, username, or email', 'studpofun');
     I.fillField('Password', '123ramakod');
     I.click('Log In');
-    I.wait('Log In');
-    I.click('Not Now',"h2");
-
-
+    I.wait('Log In'); 
+   
 
 });
 
